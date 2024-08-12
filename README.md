@@ -2,7 +2,8 @@
 
 This project implements a fraud detection model using Logistic Regression. The model is designed to classify transactions as either fraudulent or non-fraudulent based on features extracted from transaction data.
 
-Data
+<h3>Data</h3>
+
 The dataset used in this project is payment_fraud.csv, which includes the following columns:
 
 <ul>
@@ -15,15 +16,22 @@ The dataset used in this project is payment_fraud.csv, which includes the follow
 </ul>
 
 
+<h3>Libraries Required</h3>
 
-Libraries Required
-pandas, scikit-learn, seaborn, matplotlib
+<ul>
+  <li>pandas</li>
+  <li>scikit-learn</li>
+  <li>seaborn</li>
+  <li>matplotlib</li>
+</ul>
 
-Results
+<h3>Results</h3>
+
 The model achieved an accuracy of 100% on the test set. 
 The confusion matrix and classification report indicate perfect classification performance, with no false positives or false negatives.
 
-Notes
+<h3>Notes</h3>
+
 Ensure that the dataset is properly preprocessed and all categorical variables are converted to numeric values before training the model.
 The model's performance might vary with different datasets or under different conditions. 
 Consider tuning the model and evaluating it on diverse datasets for a more robust assessment.
